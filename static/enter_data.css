@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2E3192, #1BFFFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    overflow: auto;
+}
+
+/* Form Heading */
+h2 {
+    color: #ff6f00;
+    margin-bottom: 15px;
+    font-size: 20px;  /* Smaller Heading */
+    font-weight: bold;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Labels */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: #1565C0;
+    font-size: 12px;  /* Smaller Label */
+}
+
+/* Input Fields */
+input, select {
+    width: 100%;
+    padding: 6px;  /* Reduced Padding */
+    border: 2px solid #4CAF50;
+    border-radius: 6px;  /* Smaller Borders */
+    font-size: 12px;  /* Smaller Text */
+    transition: 0.3s;
+    background: #f1f8e9;
+    color: #333;
+    box-sizing: border-box;
+}
+
+/* Focus Effects */
+input:focus, select:focus {
+    border-color: #ff9800;
+    outline: none;
+    box-shadow: 0px 0px 4px rgba(255, 152, 0, 0.6);
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    background: linear-gradient(90deg, #ff6f00, #ff9800);
+    color: white;
+    border: none;
+    padding: 8px;  /* Smaller Padding */
+    font-size: 14px;  /* Smaller Text */
+    cursor: pointer;
+    border-radius: 6px;  /* Reduced Border Radius */
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+/* Button Hover */
+button:hover {
+    background: linear-gradient(90deg, #e65100, #ff6f00);
+    transform: scale(1.03);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+}
